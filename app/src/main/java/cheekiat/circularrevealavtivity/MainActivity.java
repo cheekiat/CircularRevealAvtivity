@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                             android.util.Pair.create((View) fab, "bg"));
                 }
                 startActivity(intent, options.toBundle());
-                overridePendingTransition(0, 0);
+//                overridePendingTransition(0, 0);
 
             }
         });
